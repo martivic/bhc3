@@ -1,0 +1,29 @@
+{
+  "id": "f0a3ce0f-2b55-42ff-87ca-47ba6e1dc8b5",
+  "name": "ask_for_datetime",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.datetime",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519236492,
+  "fallbackIntent": false,
+  "events": []
+}

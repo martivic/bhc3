@@ -1,0 +1,29 @@
+{
+  "id": "b74c1036-ea09-48a8-9722-a6dd106e67dc",
+  "name": "ask_for_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.confirmation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1548112556,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a1577875-4662-42e0-949b-5c160335e2dd",
+    "data": [
+      {
+        "text": "what\u0027s the permission intent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519235661
+  },
+  {
+    "id": "29749404-bb16-437c-9894-a98cc2534216",
+    "data": [
+      {
+        "text": "permission intent please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519235661
+  },
+  {
+    "id": "daf6fef2-e1f4-443e-953b-c7b95e57d311",
+    "data": [
+      {
+        "text": "ask for permission",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519235661
+  }
+]

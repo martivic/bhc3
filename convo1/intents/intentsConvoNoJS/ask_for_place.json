@@ -1,0 +1,29 @@
+{
+  "id": "c9fba6bd-af50-46db-9837-792ad0aa0869",
+  "name": "ask_for_place",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.place",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519236594,
+  "fallbackIntent": false,
+  "events": []
+}

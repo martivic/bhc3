@@ -1,0 +1,33 @@
+{
+  "id": "8aec0269-dc1c-42f7-a087-235373b111e7",
+  "name": "ask_for_confirmation_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.confirmation.confirmation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519236319,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_CONFIRMATION"
+    }
+  ]
+}

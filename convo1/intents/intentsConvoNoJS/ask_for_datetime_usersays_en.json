@@ -1,0 +1,26 @@
+[
+  {
+    "id": "112d39bd-3536-489a-ab3f-b74ddb5fa6e9",
+    "data": [
+      {
+        "text": "date time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236492
+  },
+  {
+    "id": "aa917b13-a944-4283-9717-a5291cd15245",
+    "data": [
+      {
+        "text": "tell me about the date time helper intent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236492
+  }
+]

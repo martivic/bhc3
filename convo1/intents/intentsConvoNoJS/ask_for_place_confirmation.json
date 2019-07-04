@@ -1,0 +1,33 @@
+{
+  "id": "d5bf8f6a-300f-498e-9116-e6448ec9120e",
+  "name": "ask_for_place_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.place.confirmation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519236631,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_PLACE"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "438f300a-7649-4cdf-82d6-a7f3797e4e7f",
+    "data": [
+      {
+        "text": "what is the confirmation intent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548112556
+  },
+  {
+    "id": "ff59e4d9-c677-440f-8042-678e92fa36bf",
+    "data": [
+      {
+        "text": "what\u0027s the confirmation intent?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548112556
+  },
+  {
+    "id": "17e3be94-b337-4a6a-adac-77281fbfe8a2",
+    "data": [
+      {
+        "text": "tell me about confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1548112556
+  },
+  {
+    "id": "ab91d52d-5de4-44a4-b35b-ab02a17409c9",
+    "data": [
+      {
+        "text": "ask for confirmation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236281
+  }
+]

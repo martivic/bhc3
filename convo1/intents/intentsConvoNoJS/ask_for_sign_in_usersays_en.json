@@ -1,0 +1,26 @@
+[
+  {
+    "id": "65166047-366a-4935-88cb-c3c78fadf9a6",
+    "data": [
+      {
+        "text": "tell me about the sign in helper intent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236997
+  },
+  {
+    "id": "6e6d6635-4098-4881-bed3-c1e95ee6ff42",
+    "data": [
+      {
+        "text": "ask for sign in",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236997
+  }
+]

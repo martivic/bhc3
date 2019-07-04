@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cec0443e-2031-49b0-928f-270bee7315b1",
+    "data": [
+      {
+        "text": "tell me about the ask for place helper intent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236542
+  },
+  {
+    "id": "77766465-fd74-4bcb-a925-9fd5e49cd8f4",
+    "data": [
+      {
+        "text": "ask for place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1519236542
+  }
+]

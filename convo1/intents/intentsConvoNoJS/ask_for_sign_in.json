@@ -1,0 +1,29 @@
+{
+  "id": "ceff7036-21bf-4685-b7ad-d237c214dedc",
+  "name": "ask_for_sign_in",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ask.for.sign.in",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1519237004,
+  "fallbackIntent": false,
+  "events": []
+}
