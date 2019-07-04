@@ -1,0 +1,30 @@
+[
+  {
+    "id": "70342242-881f-49a4-ad6e-64ae61556416",
+    "data": [
+      {
+        "text": "throw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545595148
+  },
+  {
+    "id": "4d57c5cb-6b5c-4f86-9f11-5df57946c660",
+    "data": [
+      {
+        "text": "pet hair",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545595148
+  }
+]

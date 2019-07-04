@@ -1,0 +1,78 @@
+[
+  {
+    "id": "41ce0cb3-963a-4dc4-afa0-9cb697617f4d",
+    "data": [
+      {
+        "text": "I had an accident",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715631
+  },
+  {
+    "id": "030b75ca-389f-4ee9-92ae-9e1fa8a5cb37",
+    "data": [
+      {
+        "text": "we had an accident",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715631
+  },
+  {
+    "id": "fc5e9e03-a462-401f-be17-bdecee3d43e0",
+    "data": [
+      {
+        "text": "my car\u0027s messed up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715631
+  },
+  {
+    "id": "3384eb70-5b0b-426e-b6bd-2c51a8d99b84",
+    "data": [
+      {
+        "text": "awful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715631
+  },
+  {
+    "id": "5a8f50d3-51d4-4a8c-8d51-6e2a4d0bcef5",
+    "data": [
+      {
+        "text": "terrible",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545541257
+  },
+  {
+    "id": "9f4e4f0a-7a90-4557-8540-8a15e06cbcbc",
+    "data": [
+      {
+        "text": "bad",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545541188
+  }
+]

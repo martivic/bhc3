@@ -1,0 +1,43 @@
+{
+  "id": "91535b0d-1c5b-4f24-b7e4-f7d5814a42fa",
+  "name": "InteriorProblemThrowup",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "InteriorProblemThrowup-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "5adc7f2a-2c20-4c0b-90fa-f6f14bd07c70",
+          "required": false,
+          "dataType": "@probsInterior",
+          "name": "probsInterior",
+          "value": "$probsInterior",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ok, when did this happen?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1546197215,
+  "fallbackIntent": false,
+  "events": []
+}

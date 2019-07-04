@@ -1,0 +1,142 @@
+[
+  {
+    "id": "da3b1087-46b3-4af4-b1aa-9f9c1d5f2246",
+    "data": [
+      {
+        "text": "my friend ",
+        "userDefined": false
+      },
+      {
+        "text": "threw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197215
+  },
+  {
+    "id": "da3a5a01-27b9-4101-ac1e-1e8c7911bb46",
+    "data": [
+      {
+        "text": "my friend ",
+        "userDefined": false
+      },
+      {
+        "text": "got sick",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197215
+  },
+  {
+    "id": "e1ddfd5c-b593-4e96-ace8-1a6f4668895d",
+    "data": [
+      {
+        "text": "my dog ",
+        "userDefined": false
+      },
+      {
+        "text": "threw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197215
+  },
+  {
+    "id": "386c366d-6919-4dc1-b814-e92fb19553d6",
+    "data": [
+      {
+        "text": "my dog ",
+        "userDefined": false
+      },
+      {
+        "text": "got sick",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197215
+  },
+  {
+    "id": "701c490b-266d-4ebb-a8fd-d9553b5923bc",
+    "data": [
+      {
+        "text": "someone ",
+        "userDefined": false
+      },
+      {
+        "text": "got sick",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197215
+  },
+  {
+    "id": "71464509-7f00-4596-9c5d-5497be92a695",
+    "data": [
+      {
+        "text": "there\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "throw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197085
+  },
+  {
+    "id": "df801663-f869-4bdb-83cb-fce1645a03e9",
+    "data": [
+      {
+        "text": "someone ",
+        "userDefined": false
+      },
+      {
+        "text": "threw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197085
+  },
+  {
+    "id": "b9917b5a-5608-4e5a-a4b6-cbe929676971",
+    "data": [
+      {
+        "text": "throw up",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546196997
+  }
+]

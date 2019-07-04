@@ -1,0 +1,59 @@
+{
+  "id": "9f080b76-2366-446a-a1ab-a31f65f9491d",
+  "parentId": "91535b0d-1c5b-4f24-b7e4-f7d5814a42fa",
+  "rootParentId": "91535b0d-1c5b-4f24-b7e4-f7d5814a42fa",
+  "name": "InteriorProblemThrowup - recent",
+  "auto": true,
+  "contexts": [
+    "InteriorProblemThrowup-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InteriorProblemThrowup.InteriorProblemThrowup-custom",
+      "affectedContexts": [
+        {
+          "name": "InteriorProblemThrowup-recent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ab973e55-00a6-4f12-a40c-76abaec1da21",
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "id": "cb7ced2b-02ae-4777-9689-f7b747eaa948",
+          "dataType": "@sys.time-period",
+          "name": "time-period",
+          "value": "$time-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "oh boy, well, lets get that fixed now. did you want to get in for a detail?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1545589070,
+  "fallbackIntent": false,
+  "events": []
+}

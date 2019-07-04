@@ -1,0 +1,50 @@
+{
+  "id": "9a511df1-aee0-483e-a6b1-14b48773869f",
+  "parentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "rootParentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "name": "Default Welcome Intent - med",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "46573789-0428-4c2e-a60c-e4232220b114",
+          "required": false,
+          "dataType": "@pos_resp",
+          "name": "pos_resp",
+          "value": "$pos_resp",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "yeah, me too,  its a $pos_resp kind of day. how may I be of assist to you today?",
+            "ok, glad to hear, and how may I help you?"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1545715523,
+  "fallbackIntent": false,
+  "events": []
+}

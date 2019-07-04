@@ -1,0 +1,36 @@
+{
+  "id": "ce81eb9e-247a-4a6b-8a0a-660cfccd0f31",
+  "name": "selling car",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fefe51da-a0e9-4eb3-ab28-782372f05e3d",
+          "dataType": "@carsNames",
+          "name": "carsNames",
+          "value": "$carsNames",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1546197268,
+  "fallbackIntent": false,
+  "events": []
+}

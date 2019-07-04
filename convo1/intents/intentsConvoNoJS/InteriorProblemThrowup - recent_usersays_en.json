@@ -1,0 +1,102 @@
+[
+  {
+    "id": "e6c2d455-d90a-42a2-bbb0-4ae0ed3ebc67",
+    "data": [
+      {
+        "text": "last ",
+        "userDefined": false
+      },
+      {
+        "text": "night",
+        "alias": "time-period",
+        "meta": "@sys.time-period",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "a1e105c6-939c-4d02-81f2-ab4837fbfc0d",
+    "data": [
+      {
+        "text": "yesterday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "39266744-6968-4228-874b-a128f66d8b98",
+    "data": [
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "a6131552-f5d9-4567-9438-a7b891881428",
+    "data": [
+      {
+        "text": "earlier ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "ad552d1b-cc93-4d95-b2ef-800a2971cb69",
+    "data": [
+      {
+        "text": "just now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "59c47c07-98af-489c-b763-2cb7649db8d8",
+    "data": [
+      {
+        "text": "a couple of days ago",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  },
+  {
+    "id": "479eb0e9-fde4-4dc7-9bdd-706d3a40158d",
+    "data": [
+      {
+        "text": "recently",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545589070
+  }
+]

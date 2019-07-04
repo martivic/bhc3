@@ -1,0 +1,20 @@
+[
+  {
+    "id": "2da610b1-4dab-4449-962a-12d7cef380a5",
+    "data": [
+      {
+        "text": "selling ",
+        "userDefined": false
+      },
+      {
+        "text": "car",
+        "alias": "carsNames",
+        "meta": "@carsNames",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1546197268
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "id": "81e41551-e112-4fd1-bf06-a321155eac25",
+  "name": "InteriorProblemsSeats",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e7c0720e-395b-418c-9a5f-6ec152c72efd",
+          "required": false,
+          "dataType": "@interior",
+          "name": "interior",
+          "value": "$interior",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ok, the $interior will be an area I focus on.  I use a high power steam cleaner that leaves the seats clean and fresh without soaking them. and I use high quality environmentally friendly chemicals also. Are there any other areas? or What day works best for you to come in?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1546197982,
+  "fallbackIntent": false,
+  "events": []
+}

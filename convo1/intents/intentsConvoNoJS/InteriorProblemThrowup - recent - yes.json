@@ -1,0 +1,38 @@
+{
+  "id": "0b3630de-724e-4224-ae09-7360e68ff17e",
+  "parentId": "9f080b76-2366-446a-a1ab-a31f65f9491d",
+  "rootParentId": "91535b0d-1c5b-4f24-b7e4-f7d5814a42fa",
+  "name": "InteriorProblemThrowup - recent - yes",
+  "auto": true,
+  "contexts": [
+    "InteriorProblemThrowup-recent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InteriorProblemThrowup.InteriorProblemThrowup-custom.InteriorProblemThrowup-recent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "what day did you want to come in?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1546279832,
+  "fallbackIntent": false,
+  "events": []
+}

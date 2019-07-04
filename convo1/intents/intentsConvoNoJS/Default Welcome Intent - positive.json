@@ -1,0 +1,47 @@
+{
+  "id": "bb2894a3-1eb6-433f-8611-06b46d035c51",
+  "parentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "rootParentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "name": "Default Welcome Intent - positive",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5923e258-6cd4-4c1d-9cc1-908a37010872",
+          "required": false,
+          "dataType": "@pos_resp",
+          "name": "pos_resp",
+          "value": "$pos_resp",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "glad to hear it! so how can boston hotcars help you?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1545715678,
+  "fallbackIntent": false,
+  "events": []
+}

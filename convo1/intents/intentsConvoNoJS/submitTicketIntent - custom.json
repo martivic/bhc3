@@ -1,0 +1,47 @@
+{
+  "id": "effac985-b02e-48de-b6e8-3dee27b051fa",
+  "parentId": "d4210d5c-955f-4705-b491-ae02ed2c52a4",
+  "rootParentId": "d4210d5c-955f-4705-b491-ae02ed2c52a4",
+  "name": "submitTicketIntent - custom",
+  "auto": true,
+  "contexts": [
+    "submitTicketIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "submitTicketIntent.submitTicketIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "651fc481-90ef-409e-90a1-4532f01a5689",
+          "required": false,
+          "dataType": "@probsInterior",
+          "name": "probsInterior",
+          "value": "$probsInterior",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1545596889,
+  "fallbackIntent": false,
+  "events": []
+}

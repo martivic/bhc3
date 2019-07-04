@@ -1,0 +1,47 @@
+{
+  "id": "67ae6a29-8ef1-4a3f-a44f-0908566391d7",
+  "parentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "rootParentId": "51a496db-643d-4501-8dd8-87cd171b4542",
+  "name": "Default Welcome Intent - bad",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "00782e04-31dd-43bb-a480-991bbeb5c6a2",
+          "required": false,
+          "dataType": "@pos_resp",
+          "name": "pos_resp",
+          "value": "$pos_resp",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, what happened exactly that is making it $pos_resp?"
+        },
+        {
+          "type": 0,
+          "lang": "es",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1545719638,
+  "fallbackIntent": false,
+  "events": []
+}

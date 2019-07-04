@@ -1,0 +1,80 @@
+[
+  {
+    "id": "70961b2f-668a-42d9-93fd-b02cc74f9143",
+    "data": [
+      {
+        "text": "satisfactory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715523
+  },
+  {
+    "id": "b2d1742a-2bd5-4e2b-919b-f48b4d6bf8be",
+    "data": [
+      {
+        "text": "acceptable",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715523
+  },
+  {
+    "id": "26bc2fe6-fff0-493f-b9ca-0ed49a60aeab",
+    "data": [
+      {
+        "text": "good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545715523
+  },
+  {
+    "id": "e6767688-5354-4b97-bce3-3058db73c560",
+    "data": [
+      {
+        "text": "okay",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545541031
+  },
+  {
+    "id": "6b6f628b-5b6d-42ff-b299-38157b46d914",
+    "data": [
+      {
+        "text": "not too bad",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545540978
+  },
+  {
+    "id": "a51bf49f-2135-47d0-bd55-49be6ce24c46",
+    "data": [
+      {
+        "text": "not bad",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1545540978
+  }
+]
