@@ -1,0 +1,42 @@
+{
+  "id": "dd0b7a98-24d3-4f50-a3c5-b74b8fd61797",
+  "name": "setup_update",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "actions.intent.CONFIGURE_UPDATES",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0bc30b96-4868-4cc5-acc7-6ad2a334cd1a",
+          "required": true,
+          "dataType": "@tip-category",
+          "name": "category",
+          "value": "$category",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1534973504,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_CONFIGURE_UPDATES"
+    }
+  ]
+}

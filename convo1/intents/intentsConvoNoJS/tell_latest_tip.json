@@ -1,0 +1,29 @@
+{
+  "id": "90926160-1418-410b-81a8-3a2f481c9f9f",
+  "name": "tell_latest_tip",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tell.latest.tip",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522371226,
+  "fallbackIntent": false,
+  "events": []
+}

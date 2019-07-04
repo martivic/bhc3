@@ -1,0 +1,181 @@
+[
+  {
+    "id": "e34540c4-33c7-48c4-9c78-8fad16a6422d",
+    "data": [
+      {
+        "text": "random",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "43344cb3-7085-477e-ad84-a761d9818888",
+    "data": [
+      {
+        "text": "I want to hear about ",
+        "userDefined": false
+      },
+      {
+        "text": "voice user interface",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "703144f7-ecee-475f-966c-6058f6c2636f",
+    "data": [
+      {
+        "text": "voice user interface",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a939f9cf-15ae-4110-9e18-ff1bda4a1be1",
+    "data": [
+      {
+        "text": "I\u0027m interested in the ",
+        "userDefined": false
+      },
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      },
+      {
+        "text": " category",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "47b2ed94-ab57-4226-89a4-a613f88586bc",
+    "data": [
+      {
+        "text": "I\u0027m interested in ",
+        "userDefined": false
+      },
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "507b3ddb-90da-4f0a-9a72-9fc9ce6e235a",
+    "data": [
+      {
+        "text": "Tell me about the ",
+        "userDefined": false
+      },
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      },
+      {
+        "text": " category",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a89c8190-cce0-4959-bcde-433dd555e624",
+    "data": [
+      {
+        "text": "Tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "79eea873-03f6-42a2-8719-b2cedbf47944",
+    "data": [
+      {
+        "text": "The dialogflow ",
+        "userDefined": false
+      },
+      {
+        "text": "category",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "91c0caa6-255b-4c34-a32a-a8a75d0d9596",
+    "data": [
+      {
+        "text": "I want to hear about ",
+        "userDefined": false
+      },
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "4e9e63b2-e174-4e29-9101-6ac851b58d9e",
+    "data": [
+      {
+        "text": "tools",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "73a289a2-8f38-4d99-a2bb-7bac57669f4a",
+    "data": [
+      {
+        "text": "dialogflow",
+        "alias": "category",
+        "meta": "@tip-category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

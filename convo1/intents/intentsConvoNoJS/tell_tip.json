@@ -1,0 +1,38 @@
+{
+  "id": "930ab1f7-6f13-4f04-ab58-6135a8f2eecb",
+  "name": "tell_tip",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tell.tip",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e02141d3-56bb-4018-a567-e2f4862d7e28",
+          "required": true,
+          "dataType": "@tip-category",
+          "name": "category",
+          "value": "$category",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1512687221,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "e6d5df77-bf91-47b6-a01f-24a36dedbbbb",
+    "data": [
+      {
+        "text": "most recent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "f437a071-a30c-405c-b014-1ef55a20763e",
+    "data": [
+      {
+        "text": "latest",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "7dc74bb3-9b9d-419b-aa92-5240b48cfd3e",
+    "data": [
+      {
+        "text": "Tell me the most recently added tip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "816c9013-e3f1-444b-b595-f78c0b909a8a",
+    "data": [
+      {
+        "text": "Tell me the newest tip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "19f1bcb2-d264-4a17-9d1d-b3da515e3b7d",
+    "data": [
+      {
+        "text": "I want to hear the latest tip",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
