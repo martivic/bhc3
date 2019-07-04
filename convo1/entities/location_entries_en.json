@@ -1,0 +1,19 @@
+[
+  {
+    "value": "location",
+    "synonyms": [
+      "location",
+      "located",
+      "where you at",
+      "address",
+      "your address",
+      "your location"
+    ]
+  },
+  {
+    "value": "Dorchester",
+    "synonyms": [
+      "Dorchester"
+    ]
+  }
+]

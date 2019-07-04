@@ -1,0 +1,20 @@
+[
+  {
+    "value": "leather",
+    "synonyms": [
+      "leather"
+    ]
+  },
+  {
+    "value": "cloth",
+    "synonyms": [
+      "cloth"
+    ]
+  },
+  {
+    "value": "vinyl",
+    "synonyms": [
+      "vinyl"
+    ]
+  }
+]
