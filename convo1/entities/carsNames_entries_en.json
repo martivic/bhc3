@@ -1,0 +1,57 @@
+[
+  {
+    "value": "bmw",
+    "synonyms": [
+      "bmw"
+    ]
+  },
+  {
+    "value": "car",
+    "synonyms": [
+      "car"
+    ]
+  },
+  {
+    "value": "chevy",
+    "synonyms": [
+      "chevy",
+      "chevy spark"
+    ]
+  },
+  {
+    "value": "honda",
+    "synonyms": [
+      "honda"
+    ]
+  },
+  {
+    "value": "mercedes",
+    "synonyms": [
+      "mercedes"
+    ]
+  },
+  {
+    "value": "tesla",
+    "synonyms": [
+      "tesla"
+    ]
+  },
+  {
+    "value": "toyota",
+    "synonyms": [
+      "toyota"
+    ]
+  },
+  {
+    "value": "truck",
+    "synonyms": [
+      "truck"
+    ]
+  },
+  {
+    "value": "volvo",
+    "synonyms": [
+      "volvo"
+    ]
+  }
+]

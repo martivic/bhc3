@@ -1,0 +1,9 @@
+{
+  "id": "56209634-ac5d-4607-af56-b55154acd119",
+  "name": "pos_resp",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

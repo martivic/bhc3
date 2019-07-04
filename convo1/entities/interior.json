@@ -1,0 +1,9 @@
+{
+  "id": "bba0c974-9b22-43e6-9067-6e5d1579a033",
+  "name": "interior",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

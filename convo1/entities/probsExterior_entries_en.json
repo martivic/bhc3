@@ -1,0 +1,63 @@
+[
+  {
+    "value": "bought car",
+    "synonyms": [
+      "acquired vehicle",
+      "bought car",
+      "just bought a truck",
+      "just bought car",
+      "new car"
+    ]
+  },
+  {
+    "value": "dirty rims",
+    "synonyms": [
+      "dirty rims"
+    ]
+  },
+  {
+    "value": "paint",
+    "synonyms": [
+      "paint"
+    ]
+  },
+  {
+    "value": "return lease",
+    "synonyms": [
+      "getting rid of car",
+      "giving car to my daughter",
+      "giving car to my kid",
+      "giving car to my son",
+      "return lease",
+      "sell car",
+      "selling car",
+      "selling my car"
+    ]
+  },
+  {
+    "value": "scratches",
+    "synonyms": [
+      "scratches"
+    ]
+  },
+  {
+    "value": "stickers",
+    "synonyms": [
+      "emblems",
+      "stickers"
+    ]
+  },
+  {
+    "value": "tar",
+    "synonyms": [
+      "tar"
+    ]
+  },
+  {
+    "value": "tree sap",
+    "synonyms": [
+      "sap",
+      "tree sap"
+    ]
+  }
+]

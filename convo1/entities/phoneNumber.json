@@ -1,0 +1,9 @@
+{
+  "id": "1e4b7ad2-afd1-41da-b9ae-3f2f9470a6a8",
+  "name": "phoneNumber",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

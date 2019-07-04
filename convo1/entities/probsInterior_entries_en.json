@@ -1,0 +1,102 @@
+[
+  {
+    "value": "blood",
+    "synonyms": [
+      "blood",
+      "blood stain",
+      "blood stains"
+    ]
+  },
+  {
+    "value": "dirt on dash",
+    "synonyms": [
+      "dirt on dash"
+    ]
+  },
+  {
+    "value": "dirty carpets",
+    "synonyms": [
+      "dirty carpets"
+    ]
+  },
+  {
+    "value": "dirty cup holders",
+    "synonyms": [
+      "dirty cup holders"
+    ]
+  },
+  {
+    "value": "mats",
+    "synonyms": [
+      "dirty mats",
+      "do mats",
+      "mats",
+      "mats cleaned",
+      "need mats"
+    ]
+  },
+  {
+    "value": "pet stains",
+    "synonyms": [
+      "cat pee",
+      "dog pee",
+      "dog pis",
+      "dog piss",
+      "pet stain",
+      "pet stains"
+    ]
+  },
+  {
+    "value": "pethair",
+    "synonyms": [
+      "pet hair",
+      "pethair"
+    ]
+  },
+  {
+    "value": "shampoo",
+    "synonyms": [
+      "shampoo",
+      "shampooed"
+    ]
+  },
+  {
+    "value": "stain on carpets",
+    "synonyms": [
+      "stain on carpets"
+    ]
+  },
+  {
+    "value": "stains",
+    "synonyms": [
+      "seat stains",
+      "stains",
+      "stains on seats"
+    ]
+  },
+  {
+    "value": "throw up",
+    "synonyms": [
+      "barfed",
+      "drank too much",
+      "got drunk",
+      "got sick",
+      "got sick in back",
+      "got sick in car",
+      "threw up",
+      "throw up"
+    ]
+  },
+  {
+    "value": "truck bed",
+    "synonyms": [
+      "truck bed"
+    ]
+  },
+  {
+    "value": "trunk dirty",
+    "synonyms": [
+      "trunk dirty"
+    ]
+  }
+]

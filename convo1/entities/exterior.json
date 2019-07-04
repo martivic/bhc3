@@ -1,0 +1,9 @@
+{
+  "id": "2367a64c-3a72-456e-b37f-4d8e4c94482f",
+  "name": "exterior",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

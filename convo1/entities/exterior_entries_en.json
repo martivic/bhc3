@@ -1,0 +1,99 @@
+[
+  {
+    "value": "clay",
+    "synonyms": [
+      "clay"
+    ]
+  },
+  {
+    "value": "degrease",
+    "synonyms": [
+      "degrease"
+    ]
+  },
+  {
+    "value": "exterior",
+    "synonyms": [
+      "exterior",
+      "outside"
+    ]
+  },
+  {
+    "value": "headlights",
+    "synonyms": [
+      "headlights"
+    ]
+  },
+  {
+    "value": "jams",
+    "synonyms": [
+      "jams"
+    ]
+  },
+  {
+    "value": "paint",
+    "synonyms": [
+      "paint"
+    ]
+  },
+  {
+    "value": "polish",
+    "synonyms": [
+      "polish"
+    ]
+  },
+  {
+    "value": "rims",
+    "synonyms": [
+      "rims"
+    ]
+  },
+  {
+    "value": "scratches",
+    "synonyms": [
+      "scratches"
+    ]
+  },
+  {
+    "value": "threshold",
+    "synonyms": [
+      "threshold"
+    ]
+  },
+  {
+    "value": "tires",
+    "synonyms": [
+      "tires"
+    ]
+  },
+  {
+    "value": "top",
+    "synonyms": [
+      "top"
+    ]
+  },
+  {
+    "value": "wash",
+    "synonyms": [
+      "wash"
+    ]
+  },
+  {
+    "value": "wax",
+    "synonyms": [
+      "wax"
+    ]
+  },
+  {
+    "value": "wheel wells",
+    "synonyms": [
+      "wheel wells"
+    ]
+  },
+  {
+    "value": "wheels",
+    "synonyms": [
+      "wheels"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "value": "awesome",
+    "synonyms": [
+      "awesome",
+      "cool",
+      "fine",
+      "great",
+      "terrific"
+    ]
+  },
+  {
+    "value": "bad",
+    "synonyms": [
+      "I need help",
+      "bad",
+      "eh  bad",
+      "i got a problem",
+      "not",
+      "not good",
+      "terrible",
+      "ugh",
+      "ugh not good"
+    ]
+  },
+  {
+    "value": "okay",
+    "synonyms": [
+      "all right",
+      "good",
+      "good question",
+      "gud",
+      "not bad",
+      "not too bad",
+      "okay"
+    ]
+  }
+]

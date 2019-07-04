@@ -1,0 +1,9 @@
+{
+  "id": "4ed02d09-d358-404e-952c-4801a338ee4b",
+  "name": "probsInterior",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "value": "exterior",
+    "synonyms": [
+      "exterior",
+      "exterior detail",
+      "outside",
+      "the exterior",
+      "the outside",
+      "the paint"
+    ]
+  },
+  {
+    "value": "fix",
+    "synonyms": [
+      "broken",
+      "fix",
+      "fixed",
+      "flat tire",
+      "mend",
+      "repair"
+    ]
+  },
+  {
+    "value": "full",
+    "synonyms": [
+      "both",
+      "detail",
+      "detail the whole thing",
+      "detail whole thing",
+      "fool",
+      "ful",
+      "full",
+      "full detail",
+      "inside and out",
+      "phul",
+      "the fool",
+      "the ful",
+      "the phul"
+    ]
+  },
+  {
+    "value": "interior",
+    "synonyms": [
+      "inside",
+      "interior",
+      "interior detail",
+      "just the inside",
+      "the inside",
+      "the interior"
+    ]
+  },
+  {
+    "value": "service",
+    "synonyms": [
+      "maintenance",
+      "overhaul",
+      "service",
+      "tune up",
+      "tune-up"
+    ]
+  }
+]

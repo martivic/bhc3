@@ -1,0 +1,9 @@
+{
+  "id": "edefb658-ab3b-4736-a32c-d39d77cd5eff",
+  "name": "probsExterior",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}
