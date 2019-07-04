@@ -1,0 +1,118 @@
+[
+  {
+    "id": "6b1aef94-fad3-4c17-85f0-529714e1df46",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "the exterior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "interior",
+        "alias": "AppointmentType1",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " done",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "883c17cc-274a-42b3-93c7-9bdc2729dff3",
+    "data": [
+      {
+        "text": "detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "truck",
+        "alias": "carsNames",
+        "meta": "@carsNames",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8bd51fb-b466-4527-9eb9-c7a01661878d",
+    "data": [
+      {
+        "text": "Detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "car",
+        "alias": "carsNames",
+        "meta": "@carsNames",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5f5d9552-96eb-44f5-81aa-49591f5bf4a1",
+    "data": [
+      {
+        "text": "I need the ",
+        "userDefined": false
+      },
+      {
+        "text": "full detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fcc72e55-1352-42fe-873d-194772e281b3",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "inside and out",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

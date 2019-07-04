@@ -1,0 +1,38 @@
+{
+  "id": "6d6ad739-c9dc-4cb1-a87e-0994a6ad2867",
+  "parentId": "9d131dfb-391c-48f5-a2f8-859d7c87d9dd",
+  "rootParentId": "81dfa908-da80-43fc-8c70-e71299d1dcc2",
+  "name": "Make Appointment - custom - bye - yes",
+  "auto": true,
+  "contexts": [
+    "MakeAppointment-custom-bye-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MakeAppointment.MakeAppointment-custom.MakeAppointment-custom-yes.MakeAppointment-custom-bye-yes",
+      "affectedContexts": [
+        {
+          "name": "MakeAppointment-custom-bye-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay Victor will confirm at your email or phone number and see you at your appointment. Thank you for using Boston HotCars. Goodbye!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "id": "e6b97279-0a9b-4566-82ab-43c0c9de2ec2",
+    "data": [
+      {
+        "text": "just ",
+        "userDefined": false
+      },
+      {
+        "text": "the interior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "36ee1902-79ac-4a0f-930b-ac99653c1b77",
+    "data": [
+      {
+        "text": "complete in and out",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3fe3a25e-0271-45b5-ac99-5b99c540e2b7",
+    "data": [
+      {
+        "text": "complete",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ef30f8c-99ec-475b-9949-8edd01379931",
+    "data": [
+      {
+        "text": "full detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54a2e3c0-8b39-483b-9406-22f7d1183fda",
+    "data": [
+      {
+        "text": "exterior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "949808d3-b79c-4a9f-b9f9-85229bab9445",
+    "data": [
+      {
+        "text": "interior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "06782061-f97f-40f2-862e-e12c159a1bd0",
+    "data": [
+      {
+        "text": "Can you ",
+        "userDefined": false
+      },
+      {
+        "text": "service",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": " my bike?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01360beb-cb94-42a5-b712-bde843bc5b28",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "repair",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": ".",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

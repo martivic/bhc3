@@ -1,0 +1,32 @@
+{
+  "id": "94377e87-7e1e-4f72-8c92-6bc331727d26",
+  "parentId": "37f85999-856f-4e7b-bf8a-e257c0979624",
+  "rootParentId": "37f85999-856f-4e7b-bf8a-e257c0979624",
+  "name": "shampooInteriorIntent - yes",
+  "auto": true,
+  "contexts": [
+    "shampooInteriorIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "shampooInteriorIntent.shampooInteriorIntent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

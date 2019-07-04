@@ -1,0 +1,36 @@
+{
+  "id": "7fca7b6c-b8d4-4c28-978e-7c4830d45189",
+  "name": "CanYouFullQuestions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3ded8d2b-49e7-4a2e-8dcf-389a4fbc583c",
+          "required": false,
+          "dataType": "@carsNames",
+          "name": "carsNames",
+          "value": "$carsNames",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Yes. Victor has been detailing for 8 years in Boston and won and award from U.S. chamber of commerce two years in a row. 2011 and 2012.  Is there anything that is currently bothering you about your vehicle?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

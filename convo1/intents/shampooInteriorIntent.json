@@ -1,0 +1,58 @@
+{
+  "id": "37f85999-856f-4e7b-bf8a-e257c0979624",
+  "name": "shampooInteriorIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "shampooInteriorIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "70e6dcf8-6790-49ad-bd3c-cf17fc682d44",
+          "required": false,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType",
+          "value": "$AppointmentType",
+          "isList": false
+        },
+        {
+          "id": "e734f89b-64f9-4020-af85-a561980b3ab2",
+          "required": false,
+          "dataType": "@interior",
+          "name": "interior",
+          "value": "$interior",
+          "isList": false
+        },
+        {
+          "id": "6ff46ad0-09e8-49a8-b44f-d87a3b4ade30",
+          "required": false,
+          "dataType": "@probsInterior",
+          "name": "probsInterior",
+          "value": "$probsInterior",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

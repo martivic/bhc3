@@ -1,0 +1,42 @@
+{
+  "id": "36505cd5-2aab-43d0-906f-166ee6d05f41",
+  "name": "AboutIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "AboutIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6f3a3d7d-2d76-4836-b019-d6b32e8e9631",
+          "required": false,
+          "dataType": "@organization",
+          "name": "organization",
+          "value": "$organization",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Boston Hotcars is a full detailing company, we focus on interior, exterior detailing."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

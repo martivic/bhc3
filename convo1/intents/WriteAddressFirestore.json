@@ -1,0 +1,36 @@
+{
+  "id": "8eeeab6f-22b9-4529-b943-cfe511cc5c51",
+  "name": "WriteAddressFirestore",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9b316ea7-dae8-436c-9bb8-83e2318454f9",
+          "required": false,
+          "dataType": "@sys.address",
+          "name": "anyAddress",
+          "value": "$anyAddress",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

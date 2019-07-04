@@ -1,0 +1,38 @@
+[
+  {
+    "id": "58cb9b21-7777-475d-8066-dcb9bb0013d9",
+    "data": [
+      {
+        "text": "how much for ",
+        "userDefined": false
+      },
+      {
+        "text": "exterior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7d9ddf5f-3d6d-4a0b-bc3a-4f26d26ef1c3",
+    "data": [
+      {
+        "text": "how much for just ",
+        "userDefined": false
+      },
+      {
+        "text": "exterior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

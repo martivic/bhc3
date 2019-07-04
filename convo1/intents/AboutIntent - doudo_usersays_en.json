@@ -1,0 +1,100 @@
+[
+  {
+    "id": "f699eaec-e6a9-49b8-9eb9-b6cb1d5d9d2e",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "car wash",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "423b1f5e-1568-45f8-a8ab-d642c1438212",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "carwash",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      },
+      {
+        "text": " real quick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c155cc1d-dbd1-4c45-ac1a-d22102ee9a4e",
+    "data": [
+      {
+        "text": "are you a ",
+        "userDefined": false
+      },
+      {
+        "text": "carwash",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e6a3c131-8438-47e2-b808-787d9fe67f83",
+    "data": [
+      {
+        "text": "do you do ",
+        "userDefined": false
+      },
+      {
+        "text": "carwash",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a71fdfe4-e247-4145-984f-77aba3d94af6",
+    "data": [
+      {
+        "text": "you do ",
+        "userDefined": false
+      },
+      {
+        "text": "carwashes",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

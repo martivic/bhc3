@@ -1,0 +1,36 @@
+{
+  "id": "0be85e94-b4ed-4514-8182-938696074044",
+  "name": "ReadPhoneFirestore",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2da647a0-86f4-40b5-9af6-495ca3511a5f",
+          "required": false,
+          "dataType": "@phoneNumber",
+          "name": "phoneNumber",
+          "value": "$phoneNumber",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

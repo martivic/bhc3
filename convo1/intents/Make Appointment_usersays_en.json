@@ -1,0 +1,116 @@
+[
+  {
+    "id": "309fe3ba-feb7-4ebd-8a39-f3be663bc896",
+    "data": [
+      {
+        "text": "8am",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02997111-d9d8-49c4-ad3a-6c555233e447",
+    "data": [
+      {
+        "text": "4pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c19b4369-4881-4fb2-ae78-f2e0ad6ce0c3",
+    "data": [
+      {
+        "text": "Thursday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "671b0974-ddd4-45f9-bd21-14973281a47c",
+    "data": [
+      {
+        "text": "Can you do it ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "98fac800-f615-49d8-9b86-bf98f6f7ae0e",
+    "data": [
+      {
+        "text": "Can I schedule service for ",
+        "userDefined": false
+      },
+      {
+        "text": "4pm",
+        "alias": "time",
+        "meta": "@sys.time",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9309626f-6aa4-471d-b8ac-74dc5a07cee1",
+    "data": [
+      {
+        "text": "I\u0027d like to schedule an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "next Thursday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "id": "fa887401-8426-47f4-8b6f-00e60ecbefd9",
+    "data": [
+      {
+        "text": "can you show me a ",
+        "userDefined": false
+      },
+      {
+        "text": "detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "55e2a3f8-2f0e-4746-9745-7d645eb10c23",
+    "data": [
+      {
+        "text": "do you have pics?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

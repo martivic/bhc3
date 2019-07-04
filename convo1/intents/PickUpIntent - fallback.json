@@ -1,0 +1,32 @@
+{
+  "id": "c382ff5b-df34-404a-8c9b-c92d3fde17c6",
+  "parentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "rootParentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "name": "PickUpIntent - fallback",
+  "auto": false,
+  "contexts": [
+    "PickUpIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PickUpIntent.PickUpIntent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "we were discussing talking about picking up your vehicle."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

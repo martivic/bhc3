@@ -1,0 +1,16 @@
+[
+  {
+    "id": "35fd6383-ac4f-4e22-bb6e-2231a7c59271",
+    "data": [
+      {
+        "text": "303-333-3333",
+        "alias": "anyPhone",
+        "meta": "@sys.phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

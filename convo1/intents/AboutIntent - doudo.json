@@ -1,0 +1,41 @@
+{
+  "id": "dc8b8d2f-ea85-43fb-ab84-339d52eb73c7",
+  "parentId": "36505cd5-2aab-43d0-906f-166ee6d05f41",
+  "rootParentId": "36505cd5-2aab-43d0-906f-166ee6d05f41",
+  "name": "AboutIntent - doudo",
+  "auto": true,
+  "contexts": [
+    "AboutIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AboutIntent.AboutIntent-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d8ab8035-fd01-48b1-b07d-43451145c681",
+          "required": false,
+          "dataType": "@organization",
+          "name": "organization",
+          "value": "$organization",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "At the moment, Victor does car wash every Saturday and Sunday from 8am-1pm.  Pull up to Van Winkle and Victor will be outside at this time."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

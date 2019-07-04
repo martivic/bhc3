@@ -1,0 +1,44 @@
+[
+  {
+    "id": "be9c6e95-4f40-4b74-9139-91b1441e917d",
+    "data": [
+      {
+        "text": "I\u0027m just checking on prices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "777b1944-62bc-481f-82af-f4491bc29669",
+    "data": [
+      {
+        "text": "how much does it cost?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f80ff2d-aa9c-4b59-997d-ffcb38137c6b",
+    "data": [
+      {
+        "text": "how much is a ",
+        "userDefined": false
+      },
+      {
+        "text": "detail",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

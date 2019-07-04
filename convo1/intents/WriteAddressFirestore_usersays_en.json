@@ -1,0 +1,20 @@
+[
+  {
+    "id": "976d9d23-708e-4432-8b9c-5aa5d7f5f657",
+    "data": [
+      {
+        "text": "my address is ",
+        "userDefined": false
+      },
+      {
+        "text": "18 Van Winkle St, 02124",
+        "alias": "anyAddress",
+        "meta": "@sys.address",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

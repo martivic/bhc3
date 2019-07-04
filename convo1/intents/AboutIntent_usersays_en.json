@@ -1,0 +1,68 @@
+[
+  {
+    "id": "53f2d633-d1fa-4049-a1ba-b0c10c512421",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "hot cars",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5c6d9987-5b19-498d-b97e-5e61183210ca",
+    "data": [
+      {
+        "text": "Tell me about ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston HotCars",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cbc41c42-9f88-4627-ab71-38a90e3dcb5c",
+    "data": [
+      {
+        "text": "What\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "Boston HotCars",
+        "alias": "organization",
+        "meta": "@organization",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "453a8c28-0e63-4fb8-b249-9a7e269e050b",
+    "data": [
+      {
+        "text": "Tell me about you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "id": "709585c9-803e-4151-a4b2-2d1acb7d3992",
+  "parentId": "80bd02bd-b369-474d-aa50-5d4afc791a2a",
+  "rootParentId": "80bd02bd-b369-474d-aa50-5d4afc791a2a",
+  "name": "fav-type-detail - yes",
+  "auto": true,
+  "contexts": [
+    "fav-type-detail-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fav-type-detail.fav-type-detail-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

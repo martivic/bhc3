@@ -1,0 +1,70 @@
+[
+  {
+    "id": "ddfff818-9f48-46c4-a021-a39b7d4a47ca",
+    "data": [
+      {
+        "text": "I am selling it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "620e9664-07cc-4a82-a2da-feef71af77a5",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "polish",
+        "alias": "exterior",
+        "meta": "@exterior",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "wax",
+        "alias": "exterior1",
+        "meta": "@exterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2b8214e-7640-492b-a234-f444bd911f28",
+    "data": [
+      {
+        "text": "I need a ",
+        "userDefined": false
+      },
+      {
+        "text": "wax",
+        "alias": "exterior",
+        "meta": "@exterior",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "polish",
+        "alias": "exterior1",
+        "meta": "@exterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

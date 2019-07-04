@@ -1,0 +1,32 @@
+{
+  "id": "0d602306-7138-4abe-9ce5-d0662c3bdf5f",
+  "parentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "rootParentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "name": "PickUpIntent - yes",
+  "auto": true,
+  "contexts": [
+    "PickUpIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PickUpIntent.PickUpIntent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "ok, what address and zip code would you like me to valet your vehicle?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

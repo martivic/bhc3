@@ -1,0 +1,36 @@
+{
+  "id": "6b9b0f77-e18e-43cf-9377-917986932da1",
+  "name": "CantCloseIntent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "37406aed-36f0-4836-86ca-ce78a0d6ad1a",
+          "required": false,
+          "dataType": "@pos_resp",
+          "name": "pos_resp",
+          "value": "$pos_resp",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, thanks for calling Boston HotCars."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

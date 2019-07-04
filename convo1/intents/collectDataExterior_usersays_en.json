@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1c95ef60-d109-4297-b63f-13760134ba12",
+    "data": [
+      {
+        "text": "I need just ",
+        "userDefined": false
+      },
+      {
+        "text": "the outside",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

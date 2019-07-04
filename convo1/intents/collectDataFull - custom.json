@@ -1,0 +1,53 @@
+{
+  "id": "5447ea95-3abe-440b-aeef-7405c45176d3",
+  "parentId": "10ebacfc-081d-4e54-aed2-c9ddfdfd15d6",
+  "rootParentId": "10ebacfc-081d-4e54-aed2-c9ddfdfd15d6",
+  "name": "collectDataFull - custom",
+  "auto": true,
+  "contexts": [
+    "collectDataFull-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "collectDataFull.collectDataFull-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e6aae074-5ff5-404f-b0a8-e1fabdbf01a9",
+          "required": false,
+          "dataType": "@exterior",
+          "name": "exterior",
+          "value": "$exterior",
+          "isList": false
+        },
+        {
+          "id": "b81abe3a-d56a-4032-a72d-b010aff1f1f5",
+          "required": false,
+          "dataType": "@exterior",
+          "name": "exterior1",
+          "value": "$exterior1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Ok, no problem I have experience with $exterior1 and $exterior",
+            "Ok, no problem, I have experience with $exterior and $exterior1",
+            "okay, I make it look as close to new as possible."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "076aa934-60ff-4734-ba1d-666559a31729",
+    "data": [
+      {
+        "text": "full",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "676dc406-da75-4fd6-9489-d2a8e395594f",
+    "data": [
+      {
+        "text": "exterior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3f9540b2-84c2-47b6-94f5-843ddafaeb29",
+    "data": [
+      {
+        "text": "interior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

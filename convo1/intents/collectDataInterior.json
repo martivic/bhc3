@@ -1,0 +1,42 @@
+{
+  "id": "309f7182-e605-4e2a-8fd0-6b6caeca09da",
+  "name": "collectDataInterior",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "collectDataInterior-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6ce7c495-20df-4afa-9765-88338e04b9a4",
+          "required": false,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType",
+          "value": "$AppointmentType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "yes I do $AppointmentType, Boston HotCars does the vents, dials, knobs, steering wheel, dashboard, cupholders, headliner, seats, cracks of the seats, under seats, rear and mats. It takes 2 point 5 hours and cost $119.00 Are there any problem areas you would like me to focus on? or you can say schedule an appointment."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

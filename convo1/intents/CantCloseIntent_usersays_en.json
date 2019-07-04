@@ -1,0 +1,104 @@
+[
+  {
+    "id": "dbeb597e-539d-441e-b35e-91c0b8bc6b2f",
+    "data": [
+      {
+        "text": "I\u0027ll call you right back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d4279e2-48b9-4c21-a7da-4adce8a2c89d",
+    "data": [
+      {
+        "text": "I\u0027m going to call you right back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30c7d98a-6e58-47e4-8753-f8b9a1e54660",
+    "data": [
+      {
+        "text": "not",
+        "alias": "pos_resp",
+        "meta": "@pos_resp",
+        "userDefined": false
+      },
+      {
+        "text": " interested",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7b19e72-1ab1-48cc-a2cc-98ffa8886911",
+    "data": [
+      {
+        "text": "let me check with my husband",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "158282de-7f50-4933-8ca0-812665476b52",
+    "data": [
+      {
+        "text": "let me check with my wife",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1e3d858e-19f9-4b31-85fd-40d2d212df5c",
+    "data": [
+      {
+        "text": "let me check with my girlfriend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42fbe83b-6912-4867-8a40-bea1d446c793",
+    "data": [
+      {
+        "text": "let me check with my boyfriend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07cfdebe-364f-499c-94d9-1d56097b6356",
+    "data": [
+      {
+        "text": "Ill call you back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

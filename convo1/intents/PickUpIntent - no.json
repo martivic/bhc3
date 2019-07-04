@@ -1,0 +1,32 @@
+{
+  "id": "4507f6d4-066e-4a67-9bf9-c9b3b1c41454",
+  "parentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "rootParentId": "39bdb8cd-cf53-4f80-8072-4bfa513db825",
+  "name": "PickUpIntent - no",
+  "auto": true,
+  "contexts": [
+    "PickUpIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PickUpIntent.PickUpIntent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, did you want to drop it off, I am at 18 Van Winkle Street by Ashmont Station. When would you like to bring it in?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

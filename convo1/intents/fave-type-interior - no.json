@@ -1,0 +1,32 @@
+{
+  "id": "0d8e9088-cfae-4195-8a78-d19d3c12941d",
+  "parentId": "ddb3eb26-a01f-4f23-aae7-bccbb8426bae",
+  "rootParentId": "ddb3eb26-a01f-4f23-aae7-bccbb8426bae",
+  "name": "fave-type-interior - no",
+  "auto": true,
+  "contexts": [
+    "fave-type-interior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fave-type-interior.fave-type-interior-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, you can ask me to schedule an appointment or blank."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

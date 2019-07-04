@@ -1,0 +1,74 @@
+[
+  {
+    "id": "2031c451-43ee-4a66-ab27-07e2380d8224",
+    "data": [
+      {
+        "text": "do you ",
+        "userDefined": false
+      },
+      {
+        "text": "shampoo",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ab02324e-9d24-479b-a7b4-fbcab9ef3ce3",
+    "data": [
+      {
+        "text": "I need the ",
+        "userDefined": false
+      },
+      {
+        "text": "seats",
+        "alias": "interior",
+        "meta": "@interior",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "shampooed",
+        "alias": "probsInterior",
+        "meta": "@probsInterior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b42c3f73-c447-469e-aae7-489b39a7971c",
+    "data": [
+      {
+        "text": "do you shampoo ",
+        "userDefined": false
+      },
+      {
+        "text": "interior",
+        "alias": "AppointmentType",
+        "meta": "@AppointmentType",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

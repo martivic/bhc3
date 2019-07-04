@@ -1,0 +1,60 @@
+{
+  "id": "d5182f85-1fc5-428f-8715-1e0ef9446ae4",
+  "parentId": "309f7182-e605-4e2a-8fd0-6b6caeca09da",
+  "rootParentId": "309f7182-e605-4e2a-8fd0-6b6caeca09da",
+  "name": "collectDataInterior - custom",
+  "auto": true,
+  "contexts": [
+    "collectDataInterior-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "collectDataInterior.collectDataInterior-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e2a19ea7-7359-422d-9b29-4ec0d757b5c7",
+          "required": false,
+          "dataType": "@interior",
+          "name": "interior",
+          "value": "$interior",
+          "isList": false
+        },
+        {
+          "id": "159c684d-20c4-48d3-a466-1bc01e670886",
+          "required": false,
+          "dataType": "@probsInterior",
+          "name": "probsInterior",
+          "value": "$probsInterior",
+          "isList": false
+        },
+        {
+          "id": "a33c4704-04bd-49ed-bdef-a5bb17b90891",
+          "required": false,
+          "dataType": "@probsInterior",
+          "name": "probsInterior1",
+          "value": "$probsInterior1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I sure do, the $interior and $probsInterior are areas I will focus on including vents, dials, knobs, steering wheel, dashboard, headliner, cracks of seats, underneath and takes 2.5 hours to complete.",
+            "Ok, I will attack  $probsInterior1 and $probsInterior as well as focus on vents, dials, knobs, steering wheel, dashboard, headliner, cracks of seats, underneath seats and takes 2.5 hours to complete."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

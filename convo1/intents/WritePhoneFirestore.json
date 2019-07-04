@@ -1,0 +1,36 @@
+{
+  "id": "f4783f90-5b51-4ec9-9364-0d01c3c1a1be",
+  "name": "WritePhoneFirestore",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "10f8b9a4-0f88-43fe-9f43-82e492431d29",
+          "required": false,
+          "dataType": "@sys.phone-number",
+          "name": "anyPhone",
+          "value": "$anyPhone",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

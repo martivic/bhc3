@@ -1,0 +1,58 @@
+{
+  "id": "10ebacfc-081d-4e54-aed2-c9ddfdfd15d6",
+  "name": "collectDataFull",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "collectDataFull-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e3f30e43-cb03-4409-a82a-12f49ed7ffe8",
+          "required": false,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType",
+          "value": "$AppointmentType",
+          "isList": false
+        },
+        {
+          "id": "51d7c6bd-1934-4f08-98f2-7d4756a69128",
+          "required": false,
+          "dataType": "@carsNames",
+          "name": "carsNames",
+          "value": "$carsNames",
+          "isList": false
+        },
+        {
+          "id": "305b4b5b-f84e-4a8d-bdb8-5505aea8264a",
+          "required": false,
+          "dataType": "@AppointmentType",
+          "name": "AppointmentType1",
+          "value": "$AppointmentType1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok, so a complete detail. is there any issue that bothers you every time you get in or see the outside of your $carsNames"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "id": "635bba86-4568-4c5d-8551-5832f447e018",
+  "parentId": "13aa3943-e4c2-4aa4-9efa-34a7cf459eb5",
+  "rootParentId": "13aa3943-e4c2-4aa4-9efa-34a7cf459eb5",
+  "name": "TipsIntent - pickUp",
+  "auto": true,
+  "contexts": [
+    "TipsIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "TipsIntent.TipsIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "You just give me your address before or after setting up your appointment so Victor can know where to pick up your vehicle. He will verify before."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
