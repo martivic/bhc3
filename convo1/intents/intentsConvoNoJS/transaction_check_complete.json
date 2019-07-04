@@ -1,0 +1,32 @@
+{
+  "id": "fd16d86b-60db-4d19-a683-5b52a22f4795",
+  "name": "transaction_check_complete",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "transaction.check.complete",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Failed to get transaction check results"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_TRANSACTION_REQUIREMENTS_CHECK"
+    }
+  ]
+}
