@@ -40,16 +40,7 @@ const db=admin.firestore();
 
 const calendarId = 'hsv1rjuouqlrmamdln15c1rnrk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
 const serviceAccount = {
-  "type": "service_account",
-  "project_id": "bhc-4-nbvqoa",
-  "private_key_id": "2014fa0102682e73a77a34c230e5143e0eaabd5f",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7UK0QPZb6GyIY\ngG5+6x/XsXork/xM5G6ll/PROaI3WBpl47sBe338gbCUGd5NLCNyHn7oFFDIsEu3\nULTZq01Q+NMAQmrlbtvzlH/588XC5ZmWm32dJm0KwpTcb6zaGiERvx3+sduBwn0b\nPZbHBhtT2vQ8m+M4Bd6ReKYjn//q1+wFzN685EnghvBWBw1qExkNGWLx5uL3ZUhO\nutp/woR4VTQ4xsZtWnGrAJNEs8hUhRSUuAiNQwTBc2Vnq2LSaRWqhXTypvkuNcPv\ngGKWLuPXRftqIHP9+bVaDwyHiMTv/ljPtzMsnR/+ZUgugBzXKYD+JoommcWSwzw9\nJDAs5/GXAgMBAAECgf8W7R5BiUhGqbYtSYrnUzU9MSZthFoHue3RAXLWKOJcjmwC\nDIgsUPEaoW+mBi8vQuJpFVJzFV7N3BtoVHh41n6gFSm+M7g3B1qPIEiJpKHlON+T\nj3R7HOORGD/KuzXCJsXlZimbAtSFt/LtYpxnFQLt6zP5jHBDFcooA/GnFUOSz/pa\ngp/Q5X2mNpWt9NIMXyGqTdIuEOpwpgecEquGG+4m0dcpQT/Sv/3kA+GF8z4GskG7\nzSWjglyNMDPAUYKHoloUwTSL+cCqzr3tWhJ2WUZ8D7tqZBnOn14P0RA1SCdlQ5La\nhH8jDjUaOoE7Smfg1rk4+JJHUccpYOG90MjUNoECgYEA6ffCYzkQZHhK5Gn0RzBd\n5v8pB4YiRUpXwIVPet3694HD3LUufwdM54KVJk1tkpXvuMS8fQ/XCEzigROh2fhs\nWo8xqnMSiz/lAM3FAJn13J4OpFKvZmqQlIMGB1/qZOCTkH8zlchUimsG+uwx5l3o\nIf9wUWzpQZf/SRkZ3UjF3WECgYEAzPRD2uRW1g4Oj4WcTluK4A0arp22N3+XTzWE\nUpX3lbn45Umf0adrpZq+/lqyVp5nePsVB+T/DEyrakTj/zKut/x/v91r2w/dwpNZ\nWJwwRzkwH3MIEWdfiC9nUTUjlnDE6Aj13CEiXdErCtx8v/y0SLTz0euaRCJWqKEQ\n65Us+fcCgYEArm8uuUVJKG7a/1LTcePojpk8IMTrdheINxvs9uDbBH715O4b/U8X\nEh+0TXs6rygkMvBSyzbtDd4snSli6RyixB2wXLEwaSs49BF1yA4BVPtuVSrkZIoc\nwuywqPzkx1L8EaYUcp6KESzcZmWEiokG0ZodRkfZ3DKTfQ8+zlE8W+ECgYEApVJj\naa3GXeP42sxryMkOvKvVWgTddub0pnAEzJkrnRrmKg25XOQvcOXiKkn+kOA1luDx\nleyhzsoJey8WukOnq8GBSsLQvWOO/eTdrRxP1SPMLZIcb+1yoeea72ZtzmwoaQLR\nTz9q+UI/9gLknfi5c+yCwFHLnioUvPEvNNif7wECgYEA3CP9FTXk5dPOIaSN4DI4\nKv3kD2P1VqtlleJxkJgOELBDrIcBn9u1SHVtmI1WMAZlKRqw2o2O8mUS4Je95H2f\nBNFNRvv/QF7QUZliXnviwM1cpOYBeuicpvAlrRKXlFmjtNBvz3KE+Gyp2hI4WboH\nQbn1BFnP3G9cm3Ki/tAxSiA=\n-----END PRIVATE KEY-----\n",
-  "client_email": "calendar2019@bhc-4-nbvqoa.iam.gserviceaccount.com",
-  "client_id": "103293965112132586747",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendar2019%40bhc-4-nbvqoa.iam.gserviceaccount.com"
+ 
 }; // Starts with {"type": "service_account",...
 
 // Set up Google Calendar Service account credentials
