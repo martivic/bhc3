@@ -18,17 +18,7 @@ const {
 
 const calendarId = '2gf8sckbqd8mtc0fvjg3238blk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
 const serviceAccount = {
-  "type": "service_account",
-  "project_id": "bhc3-0",
-  "private_key_id": "4508d7be4d742a7755490756ba946fd69f70900d",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/viYei/NfHYOA\nXBI+PiKTQcpX1sb8Pr4TtFXVxmTT/CqBFY9X/RaG0rdnNobLKzLw6GJiNjjM6kfU\nhEOWzWP/D8/1UxfQOs176/MU85gQWdOJrCblZ3pCTJrfj63J4Cy1uDA2oD9hpxje\nbu3YOllIRWw6RCvv2iWxNildHRT6cRwRXjhsHhGbBpGGnydoluDhzY7YfROWY34F\nPlN4jhMJxBJCziRFosjGU4mryFCeLpNZzoQIAOyxpgH48sgv5AQopt9jIooNjd51\n/xwAhFChwQisuRyqJBOjlM5hL/Z+Ej1qu+JUj4AaCVCh42CRaQZ3iIhoOg9inXYb\nzYDTLtTBAgMBAAECggEAARQGH8oJnihmzE+UO47u08c5Bpi8z2eAyxCCoq5EFBI3\nCNkauGfqJuufm/YxQIppfcPgRQEtHUegXBdK8CG/OxyLHswC+l0AyZ6DZEPdCCNB\nrIycDsJf3Fhk/u6mX4Al/zb6GC4LMjLZ4asT9cE4/h5UEiEu0jFO0MPzPEiW/QQo\nIHXmnG5cChlwTKk0ojo22UIeb9yD006K8GUSyYGCeUVWRkdv1WGZHHl9EhDs/2FO\nOCY5BtpJEsf6C25ku6BRDae8Pf3c4vY4TFtE3emwi45emMwPG02utRWAE0rA5hyg\njVypqNI588H7OSbqySnI4XqZVpYNiWlx10JTl9nhIQKBgQDvfAeka9xgjjlfxpRK\n7ylIqfvYDUJecTY/lLqFqmUcXWQU0g7kE7zC8MBg2h2XKApn640VNMTnMhIM+kuR\nSWn6Rn6HhOdJcrG4IJ8iwGYstenn8nNTMvfYH68xuukcZpZo9g0fZedmydifXyVx\nhcwFxurlPF1Es2JpCUYp1pjz4QKBgQDM90O6vGWSxkQznOpro+3Vtq4sSkZomNzB\nGUM6IyKeCnq+8ywwaNLF8PG1fa6WbgHjm/gRiaq9OvJPwPscDkau+BPKyI8sJdMM\nFD+J+vBuYcXfVigSG8cLggQb9UKSuSUwTxvv0DyK0Ae4qEIy+nVmGWnRUuHDp2gz\njIpZ7I/84QKBgGIFGfuqSiEbFVCmLrwc94DOUk4z3x5YqCON9GoRPCFH+FatQ3sG\nuRPxBkyd+c6MjPXL64rqdk1KqSi2qYdlzQKrJ87ADwp471S1xWyr4yYZrwtIqPs8\nuUS0czifkBoXwyhizSw0wWnI4+kXQHQel0smB66b7nDYG0dyjE1DkIcBAoGBAIZ8\n8CoFGDjYc0PSgFakt5f1SA+zpMNZGfByHRR2nW5JvgSxFpulDDfpQxAtKXN3NzIb\n0wfe5vNHTFtcaugbzfFcwc/bDWaQYwyX9KEa0Mv8x5MluyE2rMI2S2/02/veFDLA\nlbojTrZejdJyRQ2iHYoivrYkxhJVNCAu5VDf0hLBAoGAfBEb44FXXALg7Nw2rUEo\nOYn4H7JKskMGRbLMINBaBhLH9PVyPf5yQQd8T5Gp3IVkinA5CiGI48wrCdaZXd69\nJUWghqQOhdz8JLtZLXf0i6DkXRgLVchTrkht9qMcOvMB5X7AzefoTtxFxVUpw7/N\nAFW9e4FJ0BZKeKVf35oxY5Q=\n-----END PRIVATE KEY-----\n",
-  "client_email": "bhc3-shop-calendar@bhc3-0.iam.gserviceaccount.com",
-  "client_id": "114964892134296351158",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bhc3-shop-calendar%40bhc3-0.iam.gserviceaccount.com"
-
+  
 }; 
 const serviceAccountAuth = new google.auth.JWT({
   email: serviceAccount.client_email,
