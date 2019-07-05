@@ -1,35 +1,58 @@
 
-
 'use strict';
 
 const functions = require('firebase-functions');
 const {google} = require('googleapis');
 const admin=require('firebase-admin');
+
+
+
 const {
     dialogflow,
     BasicCard,
+    Permission,
     Carousel,
     Suggestions,
-    SimpleResponse,
     Button,
+    SimpleResponse,
     Image,
-
+    Place,
+    DeliveryAddress,
+    OrderUpdate,
+    TransactionDecision,
+    TransactionRequirements,
+    
+    
   } = require('actions-on-google');
 
-const calendarId = '2gf8sckbqd8mtc0fvjg3238blk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
+
+const app = dialogflow({debug: true});
+app.middleware((conv)=>{
+	conv.screen=conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT');
+	conv.hasAudioPlayback=conv.surface.capabilities.has('actions.capability.AUDIO_OUTPUT');
+	
+});
+
+admin.initializeApp(functions.config().firebase);
+const db=admin.firestore();
+
+
+
+const calendarId = 'hsv1rjuouqlrmamdln15c1rnrk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
 const serviceAccount = {
   "type": "service_account",
-  "project_id": "bhc3-0",
-  "private_key_id": "4508d7be4d742a7755490756ba946fd69f70900d",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/viYei/NfHYOA\nXBI+PiKTQcpX1sb8Pr4TtFXVxmTT/CqBFY9X/RaG0rdnNobLKzLw6GJiNjjM6kfU\nhEOWzWP/D8/1UxfQOs176/MU85gQWdOJrCblZ3pCTJrfj63J4Cy1uDA2oD9hpxje\nbu3YOllIRWw6RCvv2iWxNildHRT6cRwRXjhsHhGbBpGGnydoluDhzY7YfROWY34F\nPlN4jhMJxBJCziRFosjGU4mryFCeLpNZzoQIAOyxpgH48sgv5AQopt9jIooNjd51\n/xwAhFChwQisuRyqJBOjlM5hL/Z+Ej1qu+JUj4AaCVCh42CRaQZ3iIhoOg9inXYb\nzYDTLtTBAgMBAAECggEAARQGH8oJnihmzE+UO47u08c5Bpi8z2eAyxCCoq5EFBI3\nCNkauGfqJuufm/YxQIppfcPgRQEtHUegXBdK8CG/OxyLHswC+l0AyZ6DZEPdCCNB\nrIycDsJf3Fhk/u6mX4Al/zb6GC4LMjLZ4asT9cE4/h5UEiEu0jFO0MPzPEiW/QQo\nIHXmnG5cChlwTKk0ojo22UIeb9yD006K8GUSyYGCeUVWRkdv1WGZHHl9EhDs/2FO\nOCY5BtpJEsf6C25ku6BRDae8Pf3c4vY4TFtE3emwi45emMwPG02utRWAE0rA5hyg\njVypqNI588H7OSbqySnI4XqZVpYNiWlx10JTl9nhIQKBgQDvfAeka9xgjjlfxpRK\n7ylIqfvYDUJecTY/lLqFqmUcXWQU0g7kE7zC8MBg2h2XKApn640VNMTnMhIM+kuR\nSWn6Rn6HhOdJcrG4IJ8iwGYstenn8nNTMvfYH68xuukcZpZo9g0fZedmydifXyVx\nhcwFxurlPF1Es2JpCUYp1pjz4QKBgQDM90O6vGWSxkQznOpro+3Vtq4sSkZomNzB\nGUM6IyKeCnq+8ywwaNLF8PG1fa6WbgHjm/gRiaq9OvJPwPscDkau+BPKyI8sJdMM\nFD+J+vBuYcXfVigSG8cLggQb9UKSuSUwTxvv0DyK0Ae4qEIy+nVmGWnRUuHDp2gz\njIpZ7I/84QKBgGIFGfuqSiEbFVCmLrwc94DOUk4z3x5YqCON9GoRPCFH+FatQ3sG\nuRPxBkyd+c6MjPXL64rqdk1KqSi2qYdlzQKrJ87ADwp471S1xWyr4yYZrwtIqPs8\nuUS0czifkBoXwyhizSw0wWnI4+kXQHQel0smB66b7nDYG0dyjE1DkIcBAoGBAIZ8\n8CoFGDjYc0PSgFakt5f1SA+zpMNZGfByHRR2nW5JvgSxFpulDDfpQxAtKXN3NzIb\n0wfe5vNHTFtcaugbzfFcwc/bDWaQYwyX9KEa0Mv8x5MluyE2rMI2S2/02/veFDLA\nlbojTrZejdJyRQ2iHYoivrYkxhJVNCAu5VDf0hLBAoGAfBEb44FXXALg7Nw2rUEo\nOYn4H7JKskMGRbLMINBaBhLH9PVyPf5yQQd8T5Gp3IVkinA5CiGI48wrCdaZXd69\nJUWghqQOhdz8JLtZLXf0i6DkXRgLVchTrkht9qMcOvMB5X7AzefoTtxFxVUpw7/N\nAFW9e4FJ0BZKeKVf35oxY5Q=\n-----END PRIVATE KEY-----\n",
-  "client_email": "bhc3-shop-calendar@bhc3-0.iam.gserviceaccount.com",
-  "client_id": "114964892134296351158",
+  "project_id": "bhc-4-nbvqoa",
+  "private_key_id": "2014fa0102682e73a77a34c230e5143e0eaabd5f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7UK0QPZb6GyIY\ngG5+6x/XsXork/xM5G6ll/PROaI3WBpl47sBe338gbCUGd5NLCNyHn7oFFDIsEu3\nULTZq01Q+NMAQmrlbtvzlH/588XC5ZmWm32dJm0KwpTcb6zaGiERvx3+sduBwn0b\nPZbHBhtT2vQ8m+M4Bd6ReKYjn//q1+wFzN685EnghvBWBw1qExkNGWLx5uL3ZUhO\nutp/woR4VTQ4xsZtWnGrAJNEs8hUhRSUuAiNQwTBc2Vnq2LSaRWqhXTypvkuNcPv\ngGKWLuPXRftqIHP9+bVaDwyHiMTv/ljPtzMsnR/+ZUgugBzXKYD+JoommcWSwzw9\nJDAs5/GXAgMBAAECgf8W7R5BiUhGqbYtSYrnUzU9MSZthFoHue3RAXLWKOJcjmwC\nDIgsUPEaoW+mBi8vQuJpFVJzFV7N3BtoVHh41n6gFSm+M7g3B1qPIEiJpKHlON+T\nj3R7HOORGD/KuzXCJsXlZimbAtSFt/LtYpxnFQLt6zP5jHBDFcooA/GnFUOSz/pa\ngp/Q5X2mNpWt9NIMXyGqTdIuEOpwpgecEquGG+4m0dcpQT/Sv/3kA+GF8z4GskG7\nzSWjglyNMDPAUYKHoloUwTSL+cCqzr3tWhJ2WUZ8D7tqZBnOn14P0RA1SCdlQ5La\nhH8jDjUaOoE7Smfg1rk4+JJHUccpYOG90MjUNoECgYEA6ffCYzkQZHhK5Gn0RzBd\n5v8pB4YiRUpXwIVPet3694HD3LUufwdM54KVJk1tkpXvuMS8fQ/XCEzigROh2fhs\nWo8xqnMSiz/lAM3FAJn13J4OpFKvZmqQlIMGB1/qZOCTkH8zlchUimsG+uwx5l3o\nIf9wUWzpQZf/SRkZ3UjF3WECgYEAzPRD2uRW1g4Oj4WcTluK4A0arp22N3+XTzWE\nUpX3lbn45Umf0adrpZq+/lqyVp5nePsVB+T/DEyrakTj/zKut/x/v91r2w/dwpNZ\nWJwwRzkwH3MIEWdfiC9nUTUjlnDE6Aj13CEiXdErCtx8v/y0SLTz0euaRCJWqKEQ\n65Us+fcCgYEArm8uuUVJKG7a/1LTcePojpk8IMTrdheINxvs9uDbBH715O4b/U8X\nEh+0TXs6rygkMvBSyzbtDd4snSli6RyixB2wXLEwaSs49BF1yA4BVPtuVSrkZIoc\nwuywqPzkx1L8EaYUcp6KESzcZmWEiokG0ZodRkfZ3DKTfQ8+zlE8W+ECgYEApVJj\naa3GXeP42sxryMkOvKvVWgTddub0pnAEzJkrnRrmKg25XOQvcOXiKkn+kOA1luDx\nleyhzsoJey8WukOnq8GBSsLQvWOO/eTdrRxP1SPMLZIcb+1yoeea72ZtzmwoaQLR\nTz9q+UI/9gLknfi5c+yCwFHLnioUvPEvNNif7wECgYEA3CP9FTXk5dPOIaSN4DI4\nKv3kD2P1VqtlleJxkJgOELBDrIcBn9u1SHVtmI1WMAZlKRqw2o2O8mUS4Je95H2f\nBNFNRvv/QF7QUZliXnviwM1cpOYBeuicpvAlrRKXlFmjtNBvz3KE+Gyp2hI4WboH\nQbn1BFnP3G9cm3Ki/tAxSiA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "calendar2019@bhc-4-nbvqoa.iam.gserviceaccount.com",
+  "client_id": "103293965112132586747",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bhc3-shop-calendar%40bhc3-0.iam.gserviceaccount.com"
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendar2019%40bhc-4-nbvqoa.iam.gserviceaccount.com"
+}; // Starts with {"type": "service_account",...
 
-}; 
+// Set up Google Calendar Service account credentials
 const serviceAccountAuth = new google.auth.JWT({
   email: serviceAccount.client_email,
   key: serviceAccount.private_key,
@@ -37,81 +60,94 @@ const serviceAccountAuth = new google.auth.JWT({
 });
 
 const calendar = google.calendar('v3');
+//process.env.DEBUG = 'dialogflow:*'; // enables lib debugging statements
+
 const timeZone = 'America/New_York';
 const timeZoneOffset = '-05:00';
 
-  const app = dialogflow({debug: true});
-  app.middleware((conv)=>{
-    conv.screen=conv.surface.capabilities.has('actions.capability.SCREEN_OUTPUT');
-    conv.hasAudioPlayback=conv.surface.capabilities.has('actions.capability.AUDIO_OUTPUT');
+const SELECTION_KEY_HOME='HOME';
+const SELECTION_KEY_LIBRARY='LIBRARY';
+const SELECTION_KEY_CAFETERIA='CAFETERIA';
+const SELECTION_KEY_BOOKSTORE='BOOKSTORE';
+const SELECTION_KEY_ONE='TITLE';
+
+
+const IMG_URL_AOG="";
+const IMG_URL_HOME='';
+const IMG_URL_CAFETERIA='#';
+const IMG_URL_BOOKSTORE='#';
+const IMG_URL_LIBRARY='#';
+const IMG_URL_MEDIA='';
+const IMG_URL_MEDIA_SRC='';
+
+
+const SELECTED_ITEM_RESPONSES={
+    [SELECTION_KEY_ONE]:'You selected FIRST item',
+    [SELECTION_KEY_HOME]:'You selected HOME item',
+    [SELECTION_KEY_LIBRARY]:'You selected LIBRARY item',
+    [SELECTION_KEY_CAFETERIA]:'You selected CAFETERIA item',
+    [SELECTION_KEY_BOOKSTORE]:'You selected BOOKSTORE item',
     
-  });
-
-  admin.initializeApp(functions.config().firebase);
-const db=admin.firestore();
-
+}
+ 
 const colorMap = {
   'interior': {
     title: 'Interior Detail',
-    text: 'Interior Detail, includes interior, vents, dials, knobs, steering wheel, headliner, dashboard, screens, knobs, cupholders, seats, mats, underneath seats, cracks of the seats, and back revive all molding and plastic, and recondition leather. Also polish woodgrain. And takes 2.5 hours.',
+    text: 'Interior Detail is a subtle bluish tone.',
     image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019interior.png',
+      url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDN1JRbF9ZMHZsa1k/style-color-uiapplication-palette1.png',
       accessibilityText: 'Interior Detail',
     },
     display: 'WHITE',
   },
   'exterior': {
     title: 'Exterior Detail',
-    text: 'Exterior Detail includes, the threshold, jams, seals, rims, tires, roof, racks, rear or truck bed, paint including degrease, wash, Calfornia clay, wax and polish. and takes 2.5 hours.',
+    text: 'Exterior Detail Pink Unicorn is an imaginative reddish hue.',
     image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019exterior.png',
+      url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDbFVfTXpoaEE5Vzg/style-color-uiapplication-palette2.png',
       accessibilityText: 'Exterior Detail',
     },
     display: 'WHITE',
   },
   'full': {
     title: 'FUll DETAIL',
-    text: 'A detail, includes interior, vents, dials, knobs, steering wheel, headliner, dashboard, screens, knobs, cupholders, seats, mats, underneath seats, cracks of the seats, and back, reviving all molding and plastic, and recondition leather. Also polish woodgrain. Then the exterior includes, threshold, jams, seals, rims, tires, roof, racks, rear or truck bed, paint including degrease, wash, Calfornia clay, wax and polish. and takes 4.5 hours to complete.',
+    text: 'Full detail, Calling out to rainy days, Blue Grey Coffee brings to mind your favorite coffee shop.',
     image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019complete.png',
-      accessibilityText: 'Detail',
+      url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDZUdpeURtaTUwLUk/style-color-colorsystem-gray-secondary-161116.png',
+      accessibilityText: 'Full Detail',
     },
     display: 'WHITE',
   },
- 
 };
-
-
 const colorMap2 = {
-   'pethair': {
-    title: 'Pet Hair Removal',
-    text: 'Included with your detail, is pet hair removal service, removing from rear, mats, seats, headrests, seat belts,  including under and between cracks of seats, I also attack odors,.',
-    image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019pethair.jpg',
-      accessibilityText: 'Pet Hair Removal and Detail',
-    },
-    display: 'WHITE',
-  },
-  'mats': {
-    title: 'Mats Clean and Wash',
-    text: 'Included with your detail, Mats Clean and Wash.',
-    image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019washingMats.png',
-      accessibilityText: 'Mats Clean and Detail',
-    },
-    display: 'WHITE',
-  },
-  'stains': {
-    title: 'Stain Removal',
-    text: 'Included with your detail, Stain Removal, removing from rear, mats, seats, headrests, seat belts,  including under and between cracks of seats, I also attack odors,.',
-    image: {
-      url: 'https://s3.amazonaws.com/insurancehelperimages/2019stains1.png',
-      accessibilityText: 'Stain Removal and Detail',
-    },
-    display: 'WHITE',
-  },
+  'pethair': {
+   title: 'Pet Hair Removal',
+   text: 'Included with your detail, is pet hair removal service, removing from rear, mats, seats, headrests, seat belts,  including under and between cracks of seats, I also attack odors,.',
+   image: {
+     url: 'https://s3.amazonaws.com/insurancehelperimages/2019pethair.jpg',
+     accessibilityText: 'Pet Hair Removal and Detail',
+   },
+   display: 'WHITE',
+ },
+ 'mats': {
+   title: 'Mats Clean and Wash',
+   text: 'Included with your detail, Mats Clean and Wash.',
+   image: {
+     url: 'https://s3.amazonaws.com/insurancehelperimages/2019washingMats.png',
+     accessibilityText: 'Mats Clean and Detail',
+   },
+   display: 'WHITE',
+ },
+ 'stains': {
+   title: 'Stain Removal',
+   text: 'Included with your detail, Stain Removal, removing from rear, mats, seats, headrests, seat belts,  including under and between cracks of seats, I also attack odors,.',
+   image: {
+     url: 'https://s3.amazonaws.com/insurancehelperimages/2019stains1.png',
+     accessibilityText: 'Stain Removal and Detail',
+   },
+   display: 'WHITE',
+ },
 };
-
 // In the case the user is interacting with the Action on a screened device
 // The Fake Color Carousel will display a carousel of color cards
 const fakeColorCarousel = () => {
@@ -168,8 +204,6 @@ const fakeColorCarousel = () => {
   }});
   return carousel;
 };
-
-
 app.intent('Default Welcome Intent', (conv) => {
   if (!conv.screen) {
     conv.ask(' ' +
@@ -561,7 +595,9 @@ app.intent('cancelIntent', (conv) => {
   }));
 });
 
-  exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
+
+
+exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
 
 function currentlyOpen () {
   let date = new Date();
@@ -618,27 +654,31 @@ function goodOvernight () {
         date.getHours() <= 4;
 }
 
+
+
 function createCalendarEvent (dateTimeStart, dateTimeEnd) {
-  return new Promise((resolve, reject) => {
-    calendar.events.list({
-      auth: serviceAccountAuth, // List events for time period
-      calendarId: calendarId,
-      timeMin: dateTimeStart.toISOString(),
-      timeMax: dateTimeEnd.toISOString()
-    }, (err, calendarResponse) => {
-      if (err || calendarResponse.data.items.length > 0) {
-        reject(err || new Error('Requested time conflicts with another appointment'));
-      } else {
-        calendar.events.insert({ auth: serviceAccountAuth,
-          calendarId: calendarId,
-          resource: {summary: 'Detail Appointment',
-            start: {dateTime: dateTimeStart},
-            end: {dateTime: dateTimeEnd}}
-        }, (err, event) => {
-          err ? reject(err) : resolve(event);
+    return new Promise((resolve, reject) => {
+      calendar.events.list({
+        auth: serviceAccountAuth, // List events for time period
+        calendarId: calendarId,
+        timeMin: dateTimeStart.toISOString(),
+        timeMax: dateTimeEnd.toISOString()
+      }, (err, calendarResponse) => {
+        // Check if there is a event already on the Bike Shop Calendar
+        if (err || calendarResponse.data.items.length > 0) {
+          reject(err || new Error('Requested time conflicts with another appointment'));
+        } else {
+          // Create event for the requested time period
+          calendar.events.insert({ auth: serviceAccountAuth,
+            calendarId: calendarId,
+            resource: {summary: 'Bike Appointment',
+              start: {dateTime: dateTimeStart},
+              end: {dateTime: dateTimeEnd}}
+          }, (err, event) => {
+            err ? reject(err) : resolve(event);
+          }
+          );
         }
-        );
-      }
+      });
     });
-  });
-}
+  }
