@@ -38,7 +38,7 @@ const db=admin.firestore();
 
 
 
-const calendarId = 'hsv1rjuouqlrmamdln15c1rnrk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
+const calendarId = ''; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
 const serviceAccount = {
  
 }; // Starts with {"type": "service_account",...
