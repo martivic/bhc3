@@ -16,7 +16,7 @@ const {
 
   } = require('actions-on-google');
 
-const calendarId = '2gf8sckbqd8mtc0fvjg3238blk@group.calendar.google.com'; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
+const calendarId = ''; // looks like "6ujc6j6rgfk02cp02vg6h38cs0@group.calendar.google.com"
 const serviceAccount = {
   
 }; 
